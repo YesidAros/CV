@@ -1,0 +1,40 @@
+.contenedor {
+    position: relative;
+    background-color: #D4D4D7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width:100%;
+    height: 700px;
+}
+
+
+
+.general {
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    right: 15%px;
+    left: 15%;
+    width: 70%;
+}
+
+.izquierda {
+    position: absolute;
+    width: 35%;
+    height: 700px;
+    background: #454C57;
+    ;
+}
+
+.derecha {
+    position: absolute;
+    background-color: #fff;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 35%;
+    width: 65%;
+    height: 700px;
+}

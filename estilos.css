@@ -1,0 +1,16 @@
+.general {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: red;
+    width:100px;
+    height:auto;
+}
+
+.izquierda {
+    position: relative;
+    background-color: blue;
+
+}
