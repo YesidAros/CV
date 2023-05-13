@@ -1,3 +1,5 @@
+
+/*************** Estilos principales estructura *********/
 .contenedor {
     position: relative;
     background-color: #D4D4D7;
@@ -8,8 +10,6 @@
     width:100%;
     height: 700px;
 }
-
-
 
 .general {
     position: absolute;
@@ -23,7 +23,7 @@
 .izquierda {
     position: absolute;
     width: 35%;
-    height: 700px;
+    height: 1700px;
     background: #454C57;
     ;
 }
@@ -37,4 +37,328 @@
     left: 35%;
     width: 65%;
     height: 700px;
+}
+
+/*************************** Estilos Izquierda *************************/
+/*.contizquierda {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 10%;
+    width: 90%;
+}
+
+/***** estilos foto *****/
+
+.nombreperfil {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.nombreperfil {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.perfil {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.foto {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 70px;
+    margin-bottom: 25px;
+}
+
+/***** estilos Perfil *****/ 
+
+.perfilseccion {
+    background-color: #373D46;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+
+.perfilseccion p {
+    text-align: start;
+    margin-left: 35px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+.perfilinfo {
+    margin-left: 35px;
+}
+
+.perfilinfo ul {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.perfilinfo ul li {
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px
+}
+
+.perfilinfo ul li p {
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+/**** Estilos Habilidades ***/
+
+.habilidadesseccion {
+    background-color: #373D46;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+
+.habilidadesseccion p {
+    margin-left: 35px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.habilidadesinfo {
+    margin-left: 52px;
+    margin-bottom: 30px;
+}
+
+.habilidadesinfo ul {
+    display: inline-block;
+    text-decoration: none;
+    /*list-style: none;*/
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.habilidadesinfo ul li {
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    
+}
+
+.habilidadesinfo ul li p {
+    margin: 0px 0px;
+    padding: 0px;
+    
+}
+
+/***** Estilos SOFTWARE *****/
+
+.Softwareseccion {
+    background-color: #373D46;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+
+.Softwareseccion p {
+    margin-left: 35px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.softwareizq {
+    width:100px ;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.softwareizq ul {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.softwareizq ul li {
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    
+}
+
+.softwareizq ul li p {
+    margin: 0px 0px;
+    padding: 0px;
+    
+}
+
+.softwareder {
+    position: absolute;
+    top: 1138px;
+    bottom: 0px;
+    right: 0px;
+    left: 140px;
+    width:200px ;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.softwareder ul {
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.softwareder ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 2px;
+    line-height: 39px;
+    
+}
+
+.softwarederul li p {
+    margin: 0px 0px;
+    padding: 0px;
+    
+}
+
+/***** Estilos Idiomas ******/
+
+.idiomasseccion {
+    background-color: #373D46;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+}
+
+.idiomasseccion p {
+    margin-left: 35px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+/*******/
+
+
+.idiomasizq {
+    width:110px ;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.idiomasizq ul {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.idiomasizq ul li {
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    
+}
+
+.idiomasizq ul li p {
+    margin: 0px 0px;
+    padding: 0px;
+    
+}
+
+.idiomasder {
+    position: absolute;
+    top: 1468px;
+    bottom: 0px;
+    right: 0px;
+    left: 140px;
+    width:200px ;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.idiomasder ul {
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.idiomasder ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 2px;
+    line-height: 39px;
+    
+}
+
+.idiomasder li p {
+    margin: 0px 0px;
+    padding: 0px;
+    
 }
