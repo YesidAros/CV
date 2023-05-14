@@ -8,12 +8,12 @@
     right: 0;
     left: 0;
     width:100%;
-    height: 700px;
+    height: 2400px;
 }
 
 .general {
     position: absolute;
-    top: 20px;
+    top: 60px;
     bottom: 0px;
     right: 15%px;
     left: 15%;
@@ -36,18 +36,10 @@
     right: 0px;
     left: 35%;
     width: 65%;
-    height: 700px;
+    height: 1700px;
 }
 
 /*************************** Estilos Izquierda *************************/
-/*.contizquierda {
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 10%;
-    width: 90%;
-}
 
 /***** estilos foto *****/
 
@@ -295,9 +287,6 @@
     font-size: 25px;
 }
 
-/*******/
-
-
 .idiomasizq {
     width:110px ;
     margin-left: 35px;
@@ -361,4 +350,405 @@
     margin: 0px 0px;
     padding: 0px;
     
+}
+
+/*************************** Estilos Derecha *************************/
+/****** Estilos Generales Derecha ****/
+.contenedorderecha {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    left: 5%;
+    width: 90%;
+    height: 1700px;
+}
+
+/***** Estilos informacion general ****/
+.infogeneral {
+    margin-top: 40px;
+}
+
+.infogeneral p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #24282E;
+}
+
+/***** Estilos Experiencia ******/
+
+.experiencia {
+    border-top: 0.5px solid #bbbb;
+    border-bottom: 0.5px solid #bbbb;
+}
+
+.experiencia p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 45px;
+    color: #373D46;
+}
+
+.fechaexperiencia1 {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechaexperiencia1 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.experiencia1 {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 20px;
+}
+
+.experiencia1 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+
+.fechaexperiencia2 {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechaexperiencia2 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.experiencia2 {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 20px;
+}
+
+.experiencia2 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.fechaexperiencia3 {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechaexperiencia3 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.experiencia3 {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.experiencia3 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+/****** Educacion *****/ 
+
+.Educacion {
+    border-top: 0.5px solid #bbbb;
+    border-bottom: 0.5px solid #bbbb;
+}
+
+.Educacion p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 45px;
+    color: #373D46;
+}
+
+.fechaeducacion1 {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechaeducacion1 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.educacion1 {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.educacion1 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.fechaeducacion2 {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechaeducacion2 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.educacion2 {
+    display: inline-block;
+    position: relative;
+    top: -90px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 6%;
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.educacion2 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+/***Estilos Cursos y Certificacion**/
+
+
+.Cursos {
+    position: relative;
+    border-top: 0.5px solid #bbbb;
+    border-bottom: 0.5px solid #bbbb;
+    top: -90px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.Cursos p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 45px;
+    color: #373D46;
+}
+
+.fechacurso1 {
+    display: inline-block;
+    position: relative;
+    top: -120px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechacurso1 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.curso1 {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.curso1 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+
+.fechacurso2 {
+    display: inline-block;
+    position: relative;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechacurso2 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.curso2 {
+    display: inline-block;
+    position: relative;
+    top: -230px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.curso2 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.fechacurso3 {
+    display: inline-block;
+    position: relative;
+    top: -370px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechacurso3 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.curso3 {
+    display: inline-block;
+    position: relative;
+    top: -350px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.curso3 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+
+.fechacurso4 {
+    display: inline-block;
+    position: relative;
+    top: -500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 18%;
+    height: 3%;
+}
+
+.fechacurso4 p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
+}
+
+.curso4 {
+    display: inline-block;
+    position: relative;
+    top: -480px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 78%;
+    height: 12%;
+    margin-top: 40px;
+}
+
+.curso4 p {
+    text-align: justify;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373D46;
 }
